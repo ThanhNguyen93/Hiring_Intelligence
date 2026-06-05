@@ -239,7 +239,7 @@ def ax(title=''):
 # ── Load resources ─────────────────────────────────────────────────────────────
 @st.cache_resource
 def load_model():
-    return joblib.load(Path(__file__).parent / "tuned_gb_hiring_model.pkl")
+    return joblib.load(Path(__file__).parent / "tuned_gb_hiring_model_v2.pkl")
 
 @st.cache_data
 def load_data():
